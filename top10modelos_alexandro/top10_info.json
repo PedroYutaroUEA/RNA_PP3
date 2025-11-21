@@ -1,0 +1,202 @@
+[
+    {
+        "posicao": 1,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 20,
+            "solver": "sgd"
+        },
+        "score_medio": 0.96917399805544,
+        "score_std": 0.03958178956502858,
+        "arquivo_modelo": "top10modelos\\modelo_top1.joblib"
+    },
+    {
+        "posicao": 2,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 100,
+            "momentum": 0.9,
+            "n_iter_no_change": 50,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9654175129244791,
+        "score_std": 0.04010194609684303,
+        "arquivo_modelo": "top10modelos\\modelo_top2.joblib"
+    },
+    {
+        "posicao": 3,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 100,
+            "momentum": 0.9,
+            "n_iter_no_change": 20,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9648876952046106,
+        "score_std": 0.042196426786888494,
+        "arquivo_modelo": "top10modelos\\modelo_top3.joblib"
+    },
+    {
+        "posicao": 4,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 256,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 50,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9627901735382807,
+        "score_std": 0.0301049427765889,
+        "arquivo_modelo": "top10modelos\\modelo_top4.joblib"
+    },
+    {
+        "posicao": 5,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.8,
+            "n_iter_no_change": 10,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9623542640855659,
+        "score_std": 0.039477195828713424,
+        "arquivo_modelo": "top10modelos\\modelo_top5.joblib"
+    },
+    {
+        "posicao": 6,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 10,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9622949690143207,
+        "score_std": 0.04632677402298234,
+        "arquivo_modelo": "top10modelos\\modelo_top6.joblib"
+    },
+    {
+        "posicao": 7,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 100,
+            "momentum": 0.8,
+            "n_iter_no_change": 10,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9620492583444149,
+        "score_std": 0.03739642560246332,
+        "arquivo_modelo": "top10modelos\\modelo_top7.joblib"
+    },
+    {
+        "posicao": 8,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 50,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9619777322715215,
+        "score_std": 0.03971253717487865,
+        "arquivo_modelo": "top10modelos\\modelo_top8.joblib"
+    },
+    {
+        "posicao": 9,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "n_iter_no_change": 10,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9619124570985582,
+        "score_std": 0.041723832707276726,
+        "arquivo_modelo": "top10modelos\\modelo_top9.joblib"
+    },
+    {
+        "posicao": 10,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate": "adaptive",
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.8,
+            "n_iter_no_change": 50,
+            "solver": "sgd"
+        },
+        "score_medio": 0.9613443415454664,
+        "score_std": 0.04688953298483638,
+        "arquivo_modelo": "top10modelos\\modelo_top10.joblib"
+    }
+]
