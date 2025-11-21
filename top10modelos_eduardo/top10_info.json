@@ -1,0 +1,182 @@
+[
+    {
+        "posicao": 1,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 20,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 100,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.9615034283381885,
+        "score_std": 0.046298064916859415,
+        "arquivo_modelo": "top10modelos\\modelo_top1.joblib"
+    },
+    {
+        "posicao": 2,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 200,
+            "n_iter_no_change": 20,
+            "solver": "adam"
+        },
+        "score_medio": 0.9610550601793104,
+        "score_std": 0.049363940789202136,
+        "arquivo_modelo": "top10modelos\\modelo_top2.joblib"
+    },
+    {
+        "posicao": 3,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 20,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 200,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.9608450356915789,
+        "score_std": 0.048990719012947326,
+        "arquivo_modelo": "top10modelos\\modelo_top3.joblib"
+    },
+    {
+        "posicao": 4,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 20,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 100,
+            "n_iter_no_change": 20,
+            "solver": "adam"
+        },
+        "score_medio": 0.9605837928759143,
+        "score_std": 0.04998744822856567,
+        "arquivo_modelo": "top10modelos\\modelo_top4.joblib"
+    },
+    {
+        "posicao": 5,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9604083917024054,
+        "score_std": 0.046586117419632214,
+        "arquivo_modelo": "top10modelos\\modelo_top5.joblib"
+    },
+    {
+        "posicao": 6,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 20,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 200,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.960146514501161,
+        "score_std": 0.05107544153667787,
+        "arquivo_modelo": "top10modelos\\modelo_top6.joblib"
+    },
+    {
+        "posicao": 7,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 200,
+            "n_iter_no_change": 20,
+            "solver": "adam"
+        },
+        "score_medio": 0.9594367802873631,
+        "score_std": 0.0530044405130173,
+        "arquivo_modelo": "top10modelos\\modelo_top7.joblib"
+    },
+    {
+        "posicao": 8,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 100,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 200,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9593997912556798,
+        "score_std": 0.05305662296603425,
+        "arquivo_modelo": "top10modelos\\modelo_top8.joblib"
+    },
+    {
+        "posicao": 9,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 200,
+            "n_iter_no_change": 10,
+            "solver": "adam"
+        },
+        "score_medio": 0.9593828120344785,
+        "score_std": 0.0512268843979721,
+        "arquivo_modelo": "top10modelos\\modelo_top9.joblib"
+    },
+    {
+        "posicao": 10,
+        "hiperparametros": {
+            "activation": "tanh",
+            "batch_size": 20,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.001,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9592978425781193,
+        "score_std": 0.05286977384705647,
+        "arquivo_modelo": "top10modelos\\modelo_top10.joblib"
+    }
+]
