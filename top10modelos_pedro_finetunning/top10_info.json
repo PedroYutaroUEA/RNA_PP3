@@ -1,0 +1,192 @@
+[
+    {
+        "posicao": 1,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.005,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 1000,
+            "n_iter_no_change": 20,
+            "solver": "adam"
+        },
+        "score_medio": 0.9641402181897964,
+        "score_std": 0.04610449975315663,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top1.joblib"
+    },
+    {
+        "posicao": 2,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.001,
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.005,
+            "max_iter": 1000,
+            "n_iter_no_change": 20,
+            "solver": "adam"
+        },
+        "score_medio": 0.963626407026205,
+        "score_std": 0.043576116067972945,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top2.joblib"
+    },
+    {
+        "posicao": 3,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.005,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 1000,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9629690036604879,
+        "score_std": 0.04217191932917382,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top3.joblib"
+    },
+    {
+        "posicao": 4,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.005,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.015,
+            "max_iter": 1000,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.9628972926046993,
+        "score_std": 0.045747814928250835,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top4.joblib"
+    },
+    {
+        "posicao": 5,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.001,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.005,
+            "max_iter": 2000,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.9620625958214474,
+        "score_std": 0.04376768309214766,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top5.joblib"
+    },
+    {
+        "posicao": 6,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.005,
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.005,
+            "max_iter": 2000,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9618823974405675,
+        "score_std": 0.03806749970864724,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top6.joblib"
+    },
+    {
+        "posicao": 7,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.005,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.005,
+            "max_iter": 2000,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9618685924425374,
+        "score_std": 0.04212108869894755,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top7.joblib"
+    },
+    {
+        "posicao": 8,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.001,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 2000,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.9616693697665717,
+        "score_std": 0.050762171986502326,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top8.joblib"
+    },
+    {
+        "posicao": 9,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.0005,
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 1000,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.9615594753794031,
+        "score_std": 0.04829175170224453,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top9.joblib"
+    },
+    {
+        "posicao": 10,
+        "hiperparametros": {
+            "activation": "logistic",
+            "alpha": 0.001,
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                60,
+                30
+            ],
+            "learning_rate_init": 0.005,
+            "max_iter": 2000,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.9613900518797612,
+        "score_std": 0.0456639616344092,
+        "arquivo_modelo": "top10modelos_pedro_finetunning\\modelo_top10.joblib"
+    }
+]
