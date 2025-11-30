@@ -1,0 +1,6 @@
+posicao_original,score_original,melhor_score_novo,std_score_novo,arquivo_modelo,activation,alpha,batch_size,hidden_layer_sizes,learning_rate_init,max_iter,momentum,solver
+6,0.9726406721906026,0.9684386137188501,0.02889085696358705,FineTuned_Modelo_Top6.joblib,relu,0.0001,16,"(10,)",0.015,200,0.9,sgd
+7,0.9726124061328596,0.9699972071698255,0.02403022896769134,FineTuned_Modelo_Top7.joblib,relu,1e-05,48,"(5,)",0.01,300,0.9199999999999999,sgd
+8,0.9725882501725955,0.9664650697627648,0.03739583063382593,FineTuned_Modelo_Top8.joblib,relu,1e-05,16,"(6,)",0.0125,200,0.81,sgd
+9,0.9723987964780527,0.9679492925231541,0.022994956926069763,FineTuned_Modelo_Top9.joblib,relu,1e-05,48,"(7,)",0.02,300,0.8,sgd
+10,0.9721056169136256,0.9688892201364387,0.028442434036750813,FineTuned_Modelo_Top10.joblib,relu,0.001,16,"(5,)",0.01,200,0.81,sgd

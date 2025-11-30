@@ -1,0 +1,182 @@
+[
+    {
+        "posicao": 1,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 100,
+            "hidden_layer_sizes": [
+                1,
+                2
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.03189586579401885,
+        "score_std": 0.00527718123053037,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top1.joblib"
+    },
+    {
+        "posicao": 2,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                2,
+                1
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 10,
+            "solver": "adam"
+        },
+        "score_medio": 0.033331462646895904,
+        "score_std": 0.0015802250292452143,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top2.joblib"
+    },
+    {
+        "posicao": 3,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                1,
+                5
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.033460757581570647,
+        "score_std": 0.0009106254604263229,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top3.joblib"
+    },
+    {
+        "posicao": 4,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 100,
+            "hidden_layer_sizes": [
+                7,
+                2
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.03358429594040312,
+        "score_std": 0.0009738669743323448,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top4.joblib"
+    },
+    {
+        "posicao": 5,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                1,
+                3
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 50,
+            "solver": "adam"
+        },
+        "score_medio": 0.033829564779646125,
+        "score_std": 0.0012437269699111,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top5.joblib"
+    },
+    {
+        "posicao": 6,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 128,
+            "hidden_layer_sizes": [
+                2,
+                1
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.03395667104805899,
+        "score_std": 0.0009223375671781309,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top6.joblib"
+    },
+    {
+        "posicao": 7,
+        "hiperparametros": {
+            "activation": "relu",
+            "batch_size": 32,
+            "hidden_layer_sizes": [
+                1,
+                4
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.03398888097274203,
+        "score_std": 0.0008705708218328036,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top7.joblib"
+    },
+    {
+        "posicao": 8,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 100,
+            "hidden_layer_sizes": [
+                1,
+                5
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 100,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.03407068935389641,
+        "score_std": 0.002666063868504895,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top8.joblib"
+    },
+    {
+        "posicao": 9,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 100,
+            "hidden_layer_sizes": [
+                4,
+                6
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 30,
+            "solver": "adam"
+        },
+        "score_medio": 0.034080209406891465,
+        "score_std": 0.0009205194570463276,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top9.joblib"
+    },
+    {
+        "posicao": 10,
+        "hiperparametros": {
+            "activation": "logistic",
+            "batch_size": 100,
+            "hidden_layer_sizes": [
+                2,
+                1
+            ],
+            "learning_rate_init": 0.0001,
+            "max_iter": 50,
+            "n_iter_no_change": 20,
+            "solver": "adam"
+        },
+        "score_medio": 0.03418848172471361,
+        "score_std": 0.002297854264394006,
+        "arquivo_modelo": "Resultados\\Eduardo\\10-Piores\\modelo_top10.joblib"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "posicao_original": 6,
+        "score_original": 0.9726406721906026,
+        "melhor_score_novo": 0.9684386137188501,
+        "std_score_novo": 0.02889085696358705,
+        "melhores_parametros": {
+            "activation": "relu",
+            "alpha": 0.0001,
+            "batch_size": 16,
+            "hidden_layer_sizes": [
+                10
+            ],
+            "learning_rate_init": 0.015,
+            "max_iter": 200,
+            "momentum": 0.9,
+            "solver": "sgd"
+        },
+        "arquivo_modelo": "FineTuned_Modelo_Top6.joblib"
+    },
+    {
+        "posicao_original": 7,
+        "score_original": 0.9726124061328596,
+        "melhor_score_novo": 0.9699972071698255,
+        "std_score_novo": 0.02403022896769134,
+        "melhores_parametros": {
+            "activation": "relu",
+            "alpha": 1e-05,
+            "batch_size": 48,
+            "hidden_layer_sizes": [
+                5
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 300,
+            "momentum": 0.9199999999999999,
+            "solver": "sgd"
+        },
+        "arquivo_modelo": "FineTuned_Modelo_Top7.joblib"
+    },
+    {
+        "posicao_original": 8,
+        "score_original": 0.9725882501725955,
+        "melhor_score_novo": 0.9664650697627648,
+        "std_score_novo": 0.03739583063382593,
+        "melhores_parametros": {
+            "activation": "relu",
+            "alpha": 1e-05,
+            "batch_size": 16,
+            "hidden_layer_sizes": [
+                6
+            ],
+            "learning_rate_init": 0.0125,
+            "max_iter": 200,
+            "momentum": 0.81,
+            "solver": "sgd"
+        },
+        "arquivo_modelo": "FineTuned_Modelo_Top8.joblib"
+    },
+    {
+        "posicao_original": 9,
+        "score_original": 0.9723987964780527,
+        "melhor_score_novo": 0.9679492925231541,
+        "std_score_novo": 0.022994956926069763,
+        "melhores_parametros": {
+            "activation": "relu",
+            "alpha": 1e-05,
+            "batch_size": 48,
+            "hidden_layer_sizes": [
+                7
+            ],
+            "learning_rate_init": 0.02,
+            "max_iter": 300,
+            "momentum": 0.8,
+            "solver": "sgd"
+        },
+        "arquivo_modelo": "FineTuned_Modelo_Top9.joblib"
+    },
+    {
+        "posicao_original": 10,
+        "score_original": 0.9721056169136256,
+        "melhor_score_novo": 0.9688892201364387,
+        "std_score_novo": 0.028442434036750813,
+        "melhores_parametros": {
+            "activation": "relu",
+            "alpha": 0.001,
+            "batch_size": 16,
+            "hidden_layer_sizes": [
+                5
+            ],
+            "learning_rate_init": 0.01,
+            "max_iter": 200,
+            "momentum": 0.81,
+            "solver": "sgd"
+        },
+        "arquivo_modelo": "FineTuned_Modelo_Top10.joblib"
+    }
+]
