@@ -1,0 +1,152 @@
+[
+  {
+    "posicao": 1,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 32,
+      "hidden_layer_sizes": [4, 6],
+      "learning_rate_init": 0.001,
+      "max_iter": 300,
+      "n_iter_no_change": 50,
+      "solver": "adam"
+    },
+    "score_medio": 0.9739086460593747,
+    "score_std": 0.00832679795917347,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top1.joblib"
+  },
+  {
+    "posicao": 2,
+    "hiperparametros": {
+      "activation": "tanh",
+      "batch_size": 128,
+      "hidden_layer_sizes": [9],
+      "learning_rate_init": 0.01,
+      "max_iter": 200,
+      "n_iter_no_change": 50,
+      "solver": "adam"
+    },
+    "score_medio": 0.9733376576589068,
+    "score_std": 0.008292162551241511,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top2.joblib"
+  },
+  {
+    "posicao": 3,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 32,
+      "hidden_layer_sizes": [5],
+      "learning_rate_init": 0.01,
+      "max_iter": 200,
+      "n_iter_no_change": 30,
+      "solver": "adam"
+    },
+    "score_medio": 0.9732233972208062,
+    "score_std": 0.007369959981240205,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top3.joblib"
+  },
+  {
+    "posicao": 4,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 20,
+      "hidden_layer_sizes": [4, 6],
+      "learning_rate_init": 0.001,
+      "max_iter": 200,
+      "n_iter_no_change": 10,
+      "solver": "adam"
+    },
+    "score_medio": 0.9723506800157488,
+    "score_std": 0.007625838155713517,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top4.joblib"
+  },
+  {
+    "posicao": 5,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 100,
+      "hidden_layer_sizes": [6, 4],
+      "learning_rate_init": 0.01,
+      "max_iter": 300,
+      "n_iter_no_change": 30,
+      "solver": "adam"
+    },
+    "score_medio": 0.9721827614940668,
+    "score_std": 0.005522067899497508,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top5.joblib"
+  },
+  {
+    "posicao": 6,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 20,
+      "hidden_layer_sizes": [9],
+      "learning_rate_init": 0.001,
+      "max_iter": 300,
+      "n_iter_no_change": 50,
+      "solver": "adam"
+    },
+    "score_medio": 0.9720405819147686,
+    "score_std": 0.008411805206140814,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top6.joblib"
+  },
+  {
+    "posicao": 7,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 20,
+      "hidden_layer_sizes": [3, 6],
+      "learning_rate_init": 0.001,
+      "max_iter": 300,
+      "n_iter_no_change": 30,
+      "solver": "adam"
+    },
+    "score_medio": 0.9717263215852242,
+    "score_std": 0.012399800830822493,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top7.joblib"
+  },
+  {
+    "posicao": 8,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 32,
+      "hidden_layer_sizes": [6, 4],
+      "learning_rate_init": 0.001,
+      "max_iter": 200,
+      "n_iter_no_change": 10,
+      "solver": "adam"
+    },
+    "score_medio": 0.9715691991104999,
+    "score_std": 0.008832018949151784,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top8.joblib"
+  },
+  {
+    "posicao": 9,
+    "hiperparametros": {
+      "activation": "relu",
+      "batch_size": 20,
+      "hidden_layer_sizes": [6, 4],
+      "learning_rate_init": 0.001,
+      "max_iter": 300,
+      "n_iter_no_change": 50,
+      "solver": "adam"
+    },
+    "score_medio": 0.9715251247826593,
+    "score_std": 0.009767937764457599,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top9.joblib"
+  },
+  {
+    "posicao": 10,
+    "hiperparametros": {
+      "activation": "logistic",
+      "batch_size": 32,
+      "hidden_layer_sizes": [10],
+      "learning_rate_init": 0.01,
+      "max_iter": 200,
+      "n_iter_no_change": 20,
+      "solver": "adam"
+    },
+    "score_medio": 0.9713478534304751,
+    "score_std": 0.0076497310424405215,
+    "arquivo_modelo": "Resultados\\Eduardo\\10-Melhores\\modelo_top10.joblib"
+  }
+]
