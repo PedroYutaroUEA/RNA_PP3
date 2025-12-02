@@ -17,6 +17,7 @@ Resultados                                         #pasta com os resultados do g
   \Alexandro                                            #pasta com os resultados da grid com SGD
   \Eduardo                                              #pasta com os resultados da grid com Adam
 analise_tratamento_dados.ipynb                     #notebook com a análise exploratório do dataset e tratamento dos dados
+analise_resultados.ipynb                           #notebook com a análise dos resultados provenientes dos modelos treinados
 grid_search.ipynb                                  #notebook com a busca em grade
 ```
 
